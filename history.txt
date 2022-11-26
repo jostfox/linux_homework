@@ -1,0 +1,12 @@
+   0 cd /
+   1 vi /tmp/file.txt
+   2 df -h | head -3 > /tmp/file.txt 
+   3 cat /tmp/file.txt 
+   4 chmod g+w /tmp/file.txt  
+   5 ls -l /tmp/file.txt 
+   6 chmod u-r /tmp/file.txt 
+   7 ls -l /tmp/file.txt 
+   8 chmod 265 /tmp/file.txt 
+   9 ls -l /tmp/file.txt 
+  10 export_file /tmp/file.txt 
+  11 history > history.txt
